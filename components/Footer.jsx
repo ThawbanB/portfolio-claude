@@ -12,7 +12,7 @@ export default function Footer() {
             <Code2 className="w-3 h-3 text-white" />
           </div>
           <span className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Votre Nom
+            © {new Date().getFullYear()} Thawban Boujja
           </span>
         </div>
 

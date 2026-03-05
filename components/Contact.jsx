@@ -2,17 +2,16 @@
 
 import { useState, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Send, Mail, MapPin, Github, Linkedin, Twitter, CheckCircle2, Loader2 } from 'lucide-react'
+import { Send, Mail, MapPin, Github, Linkedin, CheckCircle2, Loader2 } from 'lucide-react'
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'votre@email.com', href: 'mailto:votre@email.com' },
+  { icon: Mail, label: 'Email', value: 'thawbanjabss@outlook.fr', href: 'mailto:thawbanjabss@outlook.fr' },
   { icon: MapPin, label: 'Localisation', value: 'Paris, France', href: null },
 ]
 
 const socials = [
-  { icon: Github, label: 'GitHub', href: 'https://github.com' },
-  { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
-  { icon: Twitter, label: 'Twitter', href: 'https://twitter.com' },
+  { icon: Github, label: 'GitHub', href: 'https://github.com/ThawbanB' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/thawban-boujja/' },
 ]
 
 export default function Contact() {

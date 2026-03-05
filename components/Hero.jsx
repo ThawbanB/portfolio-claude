@@ -55,7 +55,7 @@ export default function Hero() {
         {/* Name */}
         <motion.h1 variants={item} className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">
           Salut, je suis{' '}
-          <span className="gradient-text">Votre Nom</span>
+          <span className="gradient-text">Thawban Boujja</span>
         </motion.h1>
 
         {/* Title */}
@@ -94,8 +94,8 @@ export default function Hero() {
         {/* Social links */}
         <motion.div variants={item} className="flex justify-center gap-4">
           {[
-            { icon: Github, label: 'GitHub', href: 'https://github.com' },
-            { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com' },
+            { icon: Github, label: 'GitHub', href: 'https://github.com/ThawbanB' },
+            { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/thawban-boujja/' },
             { icon: Mail, label: 'Email', href: '#contact' },
           ].map(({ icon: Icon, label, href }) => (
             <a
